@@ -51,7 +51,7 @@ inquirer
   ])
   .then(answers => {
     // console.log(`the project name is`, answers.title);
-    fs.writeFile('readme.md', `### ${answers.title}\n## Description\n${answers.description}\n## Installation\n${answers.installation}\n## Usage\n${answers.usage}\n## Contributing\n${answers.contribution}\n## Tests\n${answers.test}\n## License\n${answers.license}\n## Questions\n[${answers.github}](https://github.com/${answers.github})\nReach out to me at ${answers.email} `, (err) =>
+    fs.writeFile('readme.md', `# ${answers.title}\n## Table of Contents\n- [Description](#-description)\n- [Installation](#-installation)\n- [Usage](#-usage)\n- [Contributing](#-contributing)\n- [Tests](#-tests)\n- [License](#-license)\n- [Questions](#-questions)\n## Description\n${answers.description}\n## Installation\n${answers.installation}\n## Usage\n${answers.usage}\n## Contributing\n${answers.contribution}\n## Tests\n${answers.test}\n## License\n${answers.license}\n## Questions\n[${answers.github}](https://github.com/${answers.github})\n For more questions, send me a message at ${answers.email} `, (err) =>
      err ? console.error(err) : console.log('Success!')
 );
     // Use user feedback for... whatever!!
