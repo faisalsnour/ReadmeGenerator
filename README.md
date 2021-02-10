@@ -1,18 +1,18 @@
-# Random
+# Random project
 
 ## Table of Contents
 
-- [Description](#-description)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Contributing](#-contributing)
-- [Tests](#-tests)
-- [License](#-license)
-- [Questions](#-questions)
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [License](#license)
+- [Questions](#questions)
 
 ## Description
 
-there is no description
+no description
 
 ## Installation
 
@@ -20,19 +20,19 @@ no instruction
 
 ## Usage
 
-just for the homework
+no usage of project, just demo
 
 ## Contributing
 
-no guidleine
+no guidlines
 
 ## Tests
 
-no test for now
+no instructions
 
 ## License
 
-MIT
+GPL
 
 ## Questions
 
