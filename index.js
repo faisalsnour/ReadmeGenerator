@@ -48,16 +48,6 @@ inquirer
         message: 'enter your email address',
         name: 'email',
     },
-    // function badge(x){
-    //     var badgeLic;
-    //     if(x =='MIT'){
-    //         badgeLic = "MIT Licence";
-    //     }
-    //     else if(x =='GPL'){
-    //         badgeLic = "GPL License";
-    //     }
-    //     return badgeLic;
-    // },
   ]
   )
   .then(answers => {
@@ -78,9 +68,8 @@ inquirer
             return '[![License: Zlib](https://img.shields.io/badge/License-Zlib-lightgrey.svg)](https://opensource.org/licenses/Zlib)'
         }
       }
-    // console.log(`the project name is`, answers.title);
-    fs.writeFile('readme.md',`${badge(answers)}\n# ${answers.title}\n## Table of Contents\n- [Description](#description)\n- [Installation](#installation)\n- [Usage](#usage)\n- [Contributing](#contributing)\n- [Tests](#tests)\n- [License](#license)\n- [Questions](#questions)\n## Description\n${answers.description}\n## Installation\n${answers.installation}\n## Usage\n${answers.usage}\n## Contributing\n${answers.contribution}\n## Tests\n${answers.test}\n## License\n${answers.license}\n## Questions\n[${answers.github}](https://github.com/${answers.github})\n For more questions, send me a message at ${answers.email} `, (err) =>
+    fs.writeFile('generatedReadme.md',`${badge(answers)}\n# ${answers.title}\n## Table of Contents\n- [Description](#description)\n- [Installation](#installation)\n- [Usage](#usage)\n- [Contributing](#contributing)\n- [Tests](#tests)\n- [License](#license)\n- [Questions](#questions)\n## Description\n${answers.description}\n## Installation\n${answers.installation}\n## Usage\n${answers.usage}\n## Contributing\n${answers.contribution}\n## Tests\n${answers.test}\n## License\n${answers.license}\n## Questions\n[${answers.github}](https://github.com/${answers.github})\n For more questions, send me a message at ${answers.email} `, (err) =>
      err ? console.error(err) : console.log('Success!')
 );
-    // Use user feedback for... whatever!!
+   
   })

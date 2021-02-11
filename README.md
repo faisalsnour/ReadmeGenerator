@@ -1,25 +1,30 @@
-[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
-# Demo
-## Table of Contents
-- [Description](#description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Tests](#tests)
-- [License](#license)
-- [Questions](#questions)
-## Description
-no description here
-## Installation
-no installation instruction
-## Usage
-not applicable
-## Contributing
-no guidelines 
-## Tests
-no test instructions
-## License
-ISC
-## Questions
-[faisalsnour](https://github.com/faisalsnour)
- For more questions, send me a message at faisalskhalifa@gmail.com 
+# Professional Readme Generator
+
+## The purpose:
+
+To create a command-line application that dynamically generates a professional README.
+
+## Features:
+
+The command-line application does the following:
+
+1. Prompts the users/ developers with a list of questions to generate a professional readme file
+2. Creates a badge at the top of the readme file based on the selected license
+
+## Screenshots:
+
+The following pictures show the application's appearance and functionality;
+
+![Screen shows the application after it is run and question on is answered](/Assets/questionOne.png)
+
+![Screen shows all the questions answered](/Assets/listOfAnswers.png)
+
+![Screen shows the generated readme file](/Assets/readmeGenerated.png)
+
+## Link to a walkthrough video
+
+[please click here](https://www.youtube.com/watch?v=P-Rv31UEGFs&feature=youtu.be)
+
+## Link to the generated readme file:
+
+[please click here](#generatedReadme.md)
