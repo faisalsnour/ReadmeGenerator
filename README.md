@@ -27,4 +27,4 @@ The following pictures show the application's appearance and functionality;
 
 ## Link to the generated readme file:
 
-[please click here](#generatedReadme.md)
+[please click here](/generatedReadme.md)
