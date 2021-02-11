@@ -1,7 +1,6 @@
-# Random project
-
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+# Demo
 ## Table of Contents
-
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -9,32 +8,18 @@
 - [Tests](#tests)
 - [License](#license)
 - [Questions](#questions)
-
 ## Description
-
-no description
-
+no description here
 ## Installation
-
-no instruction
-
+no installation instruction
 ## Usage
-
-no usage of project, just demo
-
+not applicable
 ## Contributing
-
-no guidlines
-
+no guidelines 
 ## Tests
-
-no instructions
-
+no test instructions
 ## License
-
-GPL
-
+ISC
 ## Questions
-
 [faisalsnour](https://github.com/faisalsnour)
-For more questions, send me a message at faisalskhalifa@gmail.com
+ For more questions, send me a message at faisalskhalifa@gmail.com 
